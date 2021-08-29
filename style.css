@@ -4,6 +4,7 @@ body {
     color: white
 }
 h1{
+    text-align: center;
     color:grey;
     font-family: verdana;
 }
@@ -11,10 +12,17 @@ h1{
     background-color: white;
     color: black;
     width: 600px;
-    text-align: center;
+    /* text-align:center; */
     padding: 20px;
     border-radius: 25px;
     margin:auto;
+}
+.content{
+    text-align: left;
+    padding: 0 20%;
+}
+#result{
+    background-color: yellow;
 }
 footer{
     text-align: left;
